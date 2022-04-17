@@ -1,0 +1,109 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .centers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border: 1px solid green;
+  }
+
+  .videoalign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
+
+a:link{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-color: aliceblue;
+    color: rgb(27, 27, 27);
+    font-family:unset;
+}
+
+a:visited{
+    color: rgb(93, 22, 160);
+}
+
+ul{
+    size: large;
+}
+
+.align{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.tallalign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+}
+
+.normalize{
+    text-align: center;
+}
+
+.backgroundimage {
+    background: url(mountain.jpg);
+    background-size: 40%
+}
+
+.common{
+    position: absolute;
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid black;
+    text-align: center;
+}
+
+.mainbody{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;
+    padding-right: 5px;
+}
+
+.footer{
+    bottom: 5px;
+    height: 85px;
+    left: 5px;
+    right: 5px;
+    font-size: 14px;
+    text-align: center;
+    color:#555555;
+    background-color: #ADD8E6;
+    position: fixed;
+}
+
+.subheader{
+    float: right;
+    font-size: large;
+}
+
+.graphlabel{
+    font-size:medium;
+    background-color: transparent;
+}
